@@ -2,9 +2,8 @@
 name: north-star-review
 description: "Diff-scoped review of changes against the north-star architecture specs (backend R1-R14, frontend R1-R17). Read-only: reviews a branch/PR/working diff and reports findings cited by rule ID. Use when asked to review a change for architecture conformance. Argument: the base ref (default: the repo's main branch merge-base)."
 license: Apache-2.0
-disable-model-invocation: true
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # North-star review
