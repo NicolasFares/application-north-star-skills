@@ -2,10 +2,9 @@
 name: north-star-audit
 description: "Whole-repo conformance audit against the north-star architecture specs (backend R1-R14, frontend R1-R17). Read-only: produces a findings report cited by rule ID plus a draft divergence ledger — it changes nothing. Use when asked to audit architecture, check north-star conformance, or assess drift."
 license: Apache-2.0
-disable-model-invocation: true
 context: fork
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # North-star audit

@@ -28,9 +28,9 @@ frontmatter, so they're portable anywhere skills run.
 | --- | --- | --- |
 | [`backend-north-star`](skills/backend-north-star/SKILL.md) | guardrail (auto-triggers) | Applies R1–R14 before writing/reviewing backend code: routing table, hard rules, testing table, pre-merge checklist |
 | [`frontend-north-star`](skills/frontend-north-star/SKILL.md) | guardrail (auto-triggers) | Applies R1–R17 before writing/reviewing frontend code |
-| [`north-star-audit`](skills/north-star-audit/SKILL.md) | manual, read-only | Whole-repo conformance report: findings by rule ID + severity, plus a draft divergence ledger separating drift from deliberate-looking departures |
-| [`north-star-review`](skills/north-star-review/SKILL.md) | manual, read-only | The same rubrics, diff-scoped: review a branch/PR against the rules |
-| [`north-star-diverge`](skills/north-star-diverge/SKILL.md) | manual, writes | Record a divergence in the ledger (rule ID, why, revisit trigger); creates the adoption ADR from a template if absent |
+| [`north-star-audit`](skills/north-star-audit/SKILL.md) | on demand (user or agent), read-only | Whole-repo conformance report: findings by rule ID + severity, plus a draft divergence ledger separating drift from deliberate-looking departures |
+| [`north-star-review`](skills/north-star-review/SKILL.md) | on demand (user or agent), read-only | The same rubrics, diff-scoped: review a branch/PR against the rules |
+| [`north-star-diverge`](skills/north-star-diverge/SKILL.md) | manual (user only), writes | Record a divergence in the ledger (rule ID, why, revisit trigger); creates the adoption ADR from a template if absent |
 
 Roadmap (not built yet): `north-star-adopt` (bootstrap the mapping + lint configs + ledger in
 one pass) and `north-star-migrate` (audit → phased plan → execute with gates green between
